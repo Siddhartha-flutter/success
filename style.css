@@ -1,0 +1,224 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+/* width */
+
+.margin_30{
+    margin-bottom: 30px;
+}
+.margin_40{
+    margin-bottom: 40px;
+}
+.first{
+    background-color: #004138;
+}
+
+.myrow{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px; 
+    margin-left: -15px;
+}
+img#fit {
+    width: 100%;
+    height: 100%;
+}
+
+.intro{
+    padding-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+}
+
+.sizer{
+    margin: 30px 0;
+}
+
+.custom{
+    font-family: 'Josefin Sans', sans-serif; font-size: 23px; margin: 15px 0;
+}
+
+.my_btn{
+    background-color: #359e88;
+    color: aliceblue;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 50px;
+    position: relative;
+    left: 25%;
+    top: 5%;
+}
+
+.mid{
+    font-family: 'Martel Sans', sans-serif;
+    text-align: center;
+}
+
+.pack{
+    padding: 65px 0 100px;
+    font-family: 'Martel Sans', sans-serif;
+    background-image: url('/img/packbg1.jpg');
+    background-color: rgb(40 94 90 / 90%);
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+.pack h1{
+    color: #FEE600;
+}
+
+.pack ul{
+    color: aliceblue;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.pack li{
+    margin-bottom: 10px;
+}
+
+.my_btn_2{
+    margin-top: 25px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 100px;
+}
+
+.sec_3{
+    background: linear-gradient(90deg, rgb(0, 151, 178) 0%, rgb(126 217 87) 100%);
+    font-family: 'Martel Sans', sans-serif;
+
+}
+
+.reason{
+    text-align: center;
+    padding: 40px 0 65px;
+}
+
+.list{
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+.next{
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+.sec_4{
+    background: rgb(0, 65, 56);
+    color: aliceblue;
+    padding: 40px 0 65px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contact_card{
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    touch-action: pan-x pan-y pinch-zoom;
+    padding: 10px 20px;
+}
+
+.align{
+    display: flex;
+    align-items: end;
+}
+
+.contact_card p:first-child{
+    font-weight: bold;
+    font-size: 24px;
+}
+.contact_card p:last-child{
+    font-size: 20px;
+}
+
+.contact_card i{
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+@media only screen and (max-width: 1292px) and (min-width: 992px) {
+
+}
+
+@media only screen and (max-width: 765px){
+    .margin_med_30{
+        margin-bottom: 30px;
+    }
+
+    .pack ul{
+        text-align: center;
+        list-style: none;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .intro{
+        height: 475px;
+    }
+    .intro p:first-child{
+        font-size: 18px !important;
+        text-align: center;
+    }
+    .sizer{
+        font-size: 30.7px !important;
+        text-align: center;
+        margin: 10px 0;
+    }
+    .custom{
+        font-size: 20px;
+        text-align: center;
+    }
+    .my_btn{
+        padding: 5px 30px;
+        left: 30%;
+        top: auto;
+    }
+    .list{
+        font-size: 18px;
+    }
+    .next{
+        font-size: 18px;
+    }
+    .margin_40 p:first-child{
+        font-size: 30px !important;
+    }
+    .line:after {
+        content: "";
+    position: absolute;
+    bottom: 40%;
+    left: 5%;
+    right: 0;
+    width: 200px;
+    height: 0.5em;
+    border-top: 3px solid aliceblue;
+      }
+
+      .sec_4 img{
+        width: 50% !important;
+        margin-top: 0 !important;
+      }
+      .sec_4 div:nth-child(2){
+        text-align: center;
+      }
+      .contact_card div:last-child{
+        justify-content: space-evenly !important;
+      }
+      .contact_card i{
+        font-size: 25px;
+        padding-right: 0;
+      }
+}
