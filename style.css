@@ -7,6 +7,9 @@
   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 /* width */
+body{
+  contain: content;
+}
 
 .margin_30{
     margin-bottom: 30px;
